@@ -1,0 +1,59 @@
+/*dit is commentaar 
+over meerdere lijnen 
+*/
+
+/*volgorde van belangrijkheid: 1 inline, 2 internal (style in head, 3 external, 4 default
+*/
+
+
+body{
+    background-color: darksalmon;
+    border: red;
+    border-width: 5px;
+    border-style: dashed;
+
+
+    background-image: url(image/jpg/patern.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    background: linear-gradient(#e66465,#9198e5);
+}
+
+p{
+    color:aqua;
+    font-weight: bold;
+}
+
+
+/* elementen groeperen*/
+
+h1,h2,h3{
+    text-align: center;
+    color: fuchsia;
+}
+
+.voorbeeld2{
+    color: darkblue;
+}
+
+div.voorbeeld3{
+    text-align: end;
+}
+
+p#lente{
+    color: chartreuse;
+}
+
+a:link,a:visited{
+    color:green; 
+}
+
+
+a:hover{
+    color: greenyellow;
+}
+
+a:active{
+    color:blue;
+}
